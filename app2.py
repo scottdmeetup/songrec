@@ -13,7 +13,7 @@ elif vibe == 'Indie' or vibe == 'indie':
     print choice(indie) 
     
 elif vibe == 'play':
-    open choice(play)
+    print choice(play)
     
 else:
     print 'Hmm, try typing a genre like Blues or Indie'
