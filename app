@@ -1,4 +1,4 @@
- = ['Freddie King', 'Peter Green', 'T-Bone Walker']
+blues = ['Freddie King', 'Peter Green', 'T-Bone Walker']
 indie = ['Local Natives', 'Concrete Knives', 'Fleet Foxes']
 
 vibe = raw_input('What would you like to hear? ')
