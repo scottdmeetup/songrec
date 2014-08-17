@@ -18,19 +18,33 @@
 
 var randomlinks=new Array()
 
-randomlinks[0]="https://www.youtube.com/watch?v=LVUlzNXxljg"
-randomlinks[1]="https://www.youtube.com/watch?v=w27XFIntz2g"
-randomlinks[2]="https://www.youtube.com/watch?v=E3s4rgCtL80"
-randomlinks[3]="https://www.youtube.com/watch?v=Vxn3dOwHukU" 
-randomlinks[4]="https://www.youtube.com/watch?v=SlOmdyH_7Os"
+randomlinks[0]="https://www.youtube.com/watch?v=LVUlzNXxljg" /// Jimi - Once I had a Woman
+randomlinks[1]="https://www.youtube.com/watch?v=w27XFIntz2g" /// BK - Work Me
+randomlinks[2]="https://www.youtube.com/watch?v=E3s4rgCtL80" /// Chance - Prom Night
+randomlinks[3]="https://www.youtube.com/watch?v=Vxn3dOwHukU" /// Hot Dreams
+randomlinks[4]="https://www.youtube.com/watch?v=SlOmdyH_7Os" /// James Blake
+randomlinks[5]="https://www.youtube.com/watch?v=yDiEUWu97_E" /// 1988
+randomlinks[6]="https://www.youtube.com/watch?v=ys6j-hosgcE" /// Wet - You're the Best
+randomlinks[7]="https://www.youtube.com/watch?v=4spkVX8z-vs" /// Weezer	
+randomlinks[8]="https://www.youtube.com/watch?v=JHrWphSqrvc" /// HiiPower
+randomlinks[9]="https://www.youtube.com/watch?v=CPyKAmKxOAw" /// Kanye - I'm in it
+randomlinks[10]="https://www.youtube.com/watch?v=tlm1kzWTrOI#t=55" /// Song to Woody
 
 function randomlink(){
 window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
 }
+
+
+function getpicture(){
+	if (randomlinks== 1)
+		{return	 "http://okp-cdn.okayplayer.com/wp-content/uploads/2013/02/jimi-hendrix-8150.jpg";}
+	else (randomlinks=="https://www.youtube.com/watch?v=w27XFIntz2g")
+		{return "http://94xrocks.com/wp-content/uploads/2014/05/blackkeys.jpg";}
+}
 </script>
 			<table>
 				<tr>
-					<td><a href="javascript:randomlink()" target="_blank"><img src="http://okp-cdn.okayplayer.com/wp-content/uploads/2013/02/jimi-hendrix-8150.jpg" height=175px width=225px></a></td>
+					<td><a href="javascript:randomlink()" target="_blank"><img src="javascript:getpicture()" height=175px width=225px></a></td>
 					<td><a href="javascript:randomlink()" target="_blank"><img src="http://94xrocks.com/wp-content/uploads/2014/05/blackkeys.jpg" height=175px width=225px></a></td>
 					<td><a href="javascript:randomlink()" target="_blank"><img src="http://images3.mtv.com/uri/mgid:file:docroot:mtv.com:/crop-images/2013/08/13/Chance_The_Rapper%20Offical%20Tumblr.jpg?enlarge=false&matte=true&matteColor=black&quality=0.85" height=175px width=225px></a></td>
 				</tr>
