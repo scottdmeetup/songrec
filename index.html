@@ -12,17 +12,9 @@
 <body>
 	<div class="boxey-box">
 		<h1>What do you want to hear?</h1>
-		<p><em>Click one below</em></p>
-			<table>
-				<script>
-<!--
-/*
-Random link button- By JavaScript Kit (http://javascriptkit.com)
-Over 300+ free scripts!
-This credit MUST stay intact for use
-*/
 
-//specify random links below. You can have as many as you want
+<script>
+
 var randomlinks=new Array()
 
 randomlinks[0]="https://www.youtube.com/watch?v=LVUlzNXxljg"
@@ -34,21 +26,14 @@ randomlinks[4]="https://www.youtube.com/watch?v=SlOmdyH_7Os"
 function randomlink(){
 window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
 }
-//-->
 </script>
-<form method="post">
-<p><input type="button" name="B1" value="Get turnt up" onclick="randomlink()"></p> </form>
-
-<!--Uncomment below to use a regular text link instead
-<a href="javascript:randomlink()">Random Link</a>
--->
-<!--
+			<table>
 				<tr>
-					<td><a href="https://www.youtube.com/watch?v=LVUlzNXxljg" target="_blank"><img src="http://okp-cdn.okayplayer.com/wp-content/uploads/2013/02/jimi-hendrix-8150.jpg" height=175px width=225px></a></td>
-					<td><a href="https://www.youtube.com/watch?v=w27XFIntz2g" target="_blank"><img src="http://94xrocks.com/wp-content/uploads/2014/05/blackkeys.jpg" height=175px width=225px></a></td>
-					<td><a href="https://www.youtube.com/watch?v=E3s4rgCtL80" target="_blank"><img src="http://images3.mtv.com/uri/mgid:file:docroot:mtv.com:/crop-images/2013/08/13/Chance_The_Rapper%20Offical%20Tumblr.jpg?enlarge=false&matte=true&matteColor=black&quality=0.85" height=175px width=225px></a></td>
+					<td><a href="javascript:randomlink()" target="_blank"><img src="http://okp-cdn.okayplayer.com/wp-content/uploads/2013/02/jimi-hendrix-8150.jpg" height=175px width=225px></a></td>
+					<td><a href="javascript:randomlink()" target="_blank"><img src="http://94xrocks.com/wp-content/uploads/2014/05/blackkeys.jpg" height=175px width=225px></a></td>
+					<td><a href="javascript:randomlink()" target="_blank"><img src="http://images3.mtv.com/uri/mgid:file:docroot:mtv.com:/crop-images/2013/08/13/Chance_The_Rapper%20Offical%20Tumblr.jpg?enlarge=false&matte=true&matteColor=black&quality=0.85" height=175px width=225px></a></td>
 				</tr>
-			</table>	 -->	
+			</table>
 	</div>
 </body>
 </html>
